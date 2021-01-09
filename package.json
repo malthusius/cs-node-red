@@ -1,0 +1,19 @@
+{
+  "name": "node-red",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "node-red": "1.0.4",
+    "node-red-contrib-blockly": "1.1.0",
+    "node-red-dashboard": "2.19.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
